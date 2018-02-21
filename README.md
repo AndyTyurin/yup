@@ -1,5 +1,7 @@
 # Yup-csp
 
+Yup v0.24.1
+
 ### Fork difference
 
 Yup uses [expr](https://github.com/jquense/expr) library to optimize retrieving values by passed declaration string. Unfortunately, implementation uses `new Function` which is restricted by Content Security Policy and does not work in secured applications.
@@ -30,7 +32,7 @@ json separate from validating it, via the `cast` method.
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 * [Install](#install)
 * [Usage](#usage)

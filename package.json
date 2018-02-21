@@ -1,6 +1,6 @@
 {
   "name": "yup-csp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yup v0.24.1 with fixed Content Security Policy",
   "main": "lib/index.js",
   "scripts": {
@@ -18,14 +18,14 @@
   "files": ["lib"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jquense/yup.git"
+    "url": "https://github.com/AndyTyurin/yup-csp"
   },
   "author": "@monasticpanic Jason Quense, @andytyurin Andy Tyurin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AndyTyurin/yup/issues"
+    "url": "https://github.com/AndyTyurin/yup-csp/issues"
   },
-  "homepage": "https://github.com/AndyTyurin/yup",
+  "homepage": "https://github.com/AndyTyurin/yup-csp",
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
