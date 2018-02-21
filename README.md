@@ -1,14 +1,18 @@
-# Yup
+# Yup-csp
 
-**Fork difference**
+### Fork difference
+
 Yup uses [expr](https://github.com/jquense/expr) library to optimize retrieving values by passed declaration string. Unfortunately, implementation uses `new Function` which is restricted by Content Security Policy and does not work in secured applications.
 This fork replaces `expr` getters to `lodash` getters, as a result will reduce performance, but fix the problem.
 
-**Can I use this fork?**
+### Can I use this fork?
+
 I advice to use it if you don't want to use other validation libraries beside `yup` as me.
 But you should watch for last news and wait until the problem with CSP not will be fixed.
 
 Open issue: https://github.com/jquense/expr/issues/1
+
+## About Yup
 
 Yup is a JavaScript object schema validator and object parser. The API and style is ~~stolen~~ heavily inspired
 by [Joi](https://github.com/hapijs/joi), which is an amazing library but is generally too large and difficult
@@ -111,7 +115,7 @@ json separate from validating it, via the `cast` method.
 ## Install
 
 ```sh
-npm install -S yup
+npm install -S yup-csp
 ```
 
 Yup always relies on the `Promise` global object to handle asynchronous values as well as `Set` and `Map`.
